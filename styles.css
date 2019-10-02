@@ -1,0 +1,86 @@
+html {
+    box-sizing:border-box;
+    background: #529acd;
+}
+
+*, *::before, *::after {
+    box-sizing:inherit;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col1 {
+    display: flex;
+    justify-content: flex-start
+}
+
+.col2 {
+    display: flex;
+    justify-content: center;
+}
+
+.col3 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+ 
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #eaeaea;
+    padding-bottom: 5px;
+}
+
+input {
+    width: 306px;
+    height: 42px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #eaeaea;
+    padding-left: 8px;
+    background: #529acd;
+    border: 2px solid #eaeaea;
+}
+
+select {
+    width: 306px;
+    height: 26px;
+    background: #529acd;
+    color: #eaeaea;
+    border: 2px solid #eaeaea;
+    font-size: 16px;
+}
+
+textarea {
+    width: 306px;
+    height: 122px;
+    background: #529acd; 
+    border: 2px solid #eaeaea;
+}
+
+input:focus {
+    outline: 0;
+    border: 1px solid #0b6090;
+}
+
+::placeholder {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: #365e75;
+}
